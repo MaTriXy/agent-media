@@ -1,0 +1,57 @@
+{
+  "name": "agent-media-cli",
+  "version": "1.4.3",
+  "type": "module",
+  "private": false,
+  "license": "Apache-2.0",
+  "description": "CLI tool for AI-powered UGC video generation.",
+  "homepage": "https://agent-media.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitroomhq/agent-media.git"
+  },
+  "keywords": [
+    "ai",
+    "video",
+    "image",
+    "generation",
+    "cli",
+    "terminal",
+    "text-to-video",
+    "text-to-image",
+    "image-to-video",
+    "ugc",
+    "ai-video-generator",
+    "talking-head",
+    "ai-ugc",
+    "saas-review",
+    "ai-actor"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "agent-media": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "SKILL.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "open": "^10.1.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}

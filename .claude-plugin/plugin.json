@@ -1,0 +1,24 @@
+{
+  "name": "agent-media",
+  "version": "1.4.3",
+  "description": "AI UGC video production — generate complete videos with talking heads, B-roll, subtitles, and SaaS review videos from the terminal",
+  "author": {
+    "name": "Nevo David",
+    "email": "nevo@postiz.com",
+    "url": "https://github.com/nevo-david"
+  },
+  "homepage": "https://agent-media.ai",
+  "repository": "https://github.com/gitroomhq/agent-media",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ai",
+    "video",
+    "ugc",
+    "talking-head",
+    "ai-video-generator",
+    "saas-review",
+    "text-to-video",
+    "cli",
+    "agent-media"
+  ]
+}
